@@ -77,5 +77,5 @@ Para simular el cierre del entorno virtual dentro del script, usa la opción -q.
 
 # Notas Importantes
 
-## La opción -q simula el cierre del entorno virtual solo dentro del script. Para desactivar completamente un entorno virtual, debes usar el comando deactivate manualmente en tu shell.
-Los cambios en las variables de entorno realizados por el script no persisten al proceso padre debido a la naturaleza de cómo los scripts interactúan con las shells.
+La opción -q simula el cierre del entorno virtual solo dentro del script. Para desactivar completamente un entorno virtual, debes usar el comando deactivate manualmente en tu shell.
+> Los cambios en las variables de entorno realizados por el script no persisten al proceso padre debido a la naturaleza de cómo los scripts interactúan con las shells.
