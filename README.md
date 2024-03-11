@@ -3,7 +3,33 @@ Script en zsh para la gestión de venv (entornos virutales) en proyectos python.
 
 # Documentación del Script de Entorno Virtual
 
-Este script facilita la gestión de entornos virtuales de Python en la shell Zsh. Permite crear un entorno virtual, activarlo, listar las librerías instaladas, exportar estas librerías a un archivo de requerimientos, y simular el cierre del entorno virtual.
+Este script facilita la gestión de un entorno virtual de Python utilizando Zsh. Permite crear un entorno virtual, activarlo, listar las librerías instaladas, exportar estas librerías a un archivo de requerimientos y simular la desactivación del entorno virtual.
+
+## Características
+
+- **Creación de entorno virtual**: Crea un entorno virtual si no existe.
+- **Activación de entorno virtual**: Activa el entorno virtual para su uso.
+- **Listado de librerías instaladas**: Muestra las librerías instaladas en el entorno virtual.
+- **Exportación de librerías instaladas**: Exporta las librerías instaladas a un archivo `requirements.txt`.
+- **Simulación de desactivación de entorno virtual**: Informa al usuario sobre cómo desactivar el entorno virtual manualmente, ya que la desactivación no puede ser automatizada completamente mediante el script.
+
+## Uso
+
+Para utilizar este script, guarda el código en un archivo con extensión `.sh` o `.zsh`, y asegúrate de tener permisos de ejecución. Luego, puedes ejecutar el script con diferentes opciones para gestionar tu entorno virtual.
+
+### Opciones
+
+- **Sin opción**: Crea el entorno virtual si no existe y lo activa.
+- **-o**: Lista las librerías instaladas en el entorno virtual.
+- **-x**: Exporta las librerías instaladas al archivo `requirements.txt`.
+- **-q**: Informa sobre el proceso de desactivación del entorno virtual.
+
+### Ejemplos de Comandos
+
+- Crear y/o activar el entorno virtual:
+  ```zsh
+  ./tu_script.zsh
+
 
 ## Requisitos Previos
 

@@ -14,7 +14,7 @@ fi
 
 # Copiar el script a la carpeta del proyecto
 echo "Copiando el script a $CONFIG_DIR..."
-cp ./crear_activar_venv.zsh $CONFIG_DIR/envirozsh.zsh
+cp ./enviro_zsh.zsh $CONFIG_DIR/envirozsh.zsh
 
 # Dar permisos de ejecución al script
 echo "Dando permisos de ejecución al script..."
